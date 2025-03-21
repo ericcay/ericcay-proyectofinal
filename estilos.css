@@ -1,0 +1,14 @@
+.img{
+
+}
+
+
+p{
+    width: 1440px;
+    height: 1204px;
+    background: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
