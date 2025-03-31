@@ -9,7 +9,7 @@ body {
     background-color: #fff;
 }
 .container {
-    padding: 40px;
+    padding: 30px;
 }
 h1 {
     font-size: 36px;
@@ -33,14 +33,14 @@ button {
     border-radius: 5px;
     text-align: center;
 }
-.gallery {
+.galeria {
     display: flex;
     justify-content: center;
     gap: 10px;
     max-width: 800px;
     margin: 20px auto;
 }
-.gallery img {
+.galeria img {
     width: 100%;
     height: auto;
     border-radius: 10px;
