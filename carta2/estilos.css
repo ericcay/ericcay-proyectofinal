@@ -57,14 +57,14 @@ button {
     margin: 20px auto;
 }
 
-.bottom-galleria {
+.boton-galeria {
     display: flex;
     
 }
-.bottom-galleria div {
+.boton-galeria div {
     text-align: center;
 }
-.bottom-galleria span {
+.boton-galeria span {
     display: block;
     padding-right: 300px;
     font-size: 30px;
