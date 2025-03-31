@@ -8,7 +8,7 @@
     color: #1a1a1a;
   }
   
-  .section {
+  .seccion {
     display: flex;
     flex-wrap: wrap;
     max-width: 1200px;
@@ -16,19 +16,19 @@
     padding: 20px;
   }
   
-  .image-side {
+  .medida-imagen {
     flex: 1;
     min-width: 300px;
   }
   
-  .image-side img {
+  .medida-imagen img {
     width: 100%;
     height: auto;
     border-radius: 8px;
     object-fit: cover;
   }
   
-  .content-side {
+  .contenido {
     flex: 1;
     padding: 40px;
     min-width: 300px;
@@ -37,12 +37,12 @@
     justify-content: center;
   }
   
-  .content-side h1 {
+  .contenido h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
   }
   
-  .description {
+  .descripcion {
     font-size: 1rem;
     margin-bottom: 20px;
     line-height: 1.6;
@@ -61,17 +61,17 @@
     width: 20%;
   }
   
-  .item {
+  .elementos{
     margin-bottom: 30px;
   }
   
-  .item h3 {
+  .elementos h3 {
     font-size: 1.2rem;
     color: #888;
     margin-bottom: 8px;
   }
   
-  .item p {
+  .elementos p {
     font-size: 0.95rem;
     color: #686868;
     line-height: 1.5;
@@ -79,8 +79,8 @@
     max-width: 450px;
   }
   
-  @media (max-width: 768px) {
-.section {
+  @media (max-width: 760px) {
+  .section {
     flex-direction: column;
 }
   

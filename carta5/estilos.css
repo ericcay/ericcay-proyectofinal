@@ -8,7 +8,7 @@ body {
     color: #333;
 }
 
-.projects {
+.proyectos {
     text-align: left;
     max-width: 1000px;
     margin: auto;
@@ -19,14 +19,14 @@ h1 {
     font-weight: bold;
 }
 
-.project-grid {
+.cuadricula {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 32px;
 }
 
-.project {
-    width: 30%;
+.proyecto {
+    width: 28%;
     text-align: left;
 }
 
