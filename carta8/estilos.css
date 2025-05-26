@@ -1,0 +1,56 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 80%;
+  font-family: sans-serif;
+}
+
+.heroe {
+  background-image: url('imagenes/emile-seguin-R9OueKOtGGU-unsplash\ 1.png'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+ 
+}
+
+.heroe-contenido {
+  max-width: 600px;
+}
+
+.heroe h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.heroe p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.boton {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #333;
+}
