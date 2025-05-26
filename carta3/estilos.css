@@ -8,20 +8,20 @@ h1 {
 }
 
 
-.container{
+.contenedor{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
 }
 
-.text-content{
+.texto-contenedor{
     max-width: 300px;
     padding: 20px;
     border-radius: 7px;
 }
 
-.text-content p{
+.texto-contenedor p{
     font-size: 14px;
     color: #333;
 }
@@ -35,7 +35,7 @@ button{
     cursor: pointer;
 }
 
-.image-container{
+.imagen-contenedor{
     width: 100%;
     margin-top: 20px;
 }
