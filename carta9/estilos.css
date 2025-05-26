@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('imagenes/imagencarta9.png') no-repeat center center/cover;
+  color: #1a1a1a;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  gap: 50px;
+}
+
+.carta {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 300px;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+.texto {
+  position: absolute;
+  width: 100px;
+  transform: rotate(45deg);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.contenido-texto p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.estadisticas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.estadisticas div {
+  font-size: 14px;
+}
+
+
+
+.héroe {
+  max-width: 600px;
+  padding-top: 50px;
+}
+
+.héroe h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.héroe p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+}
